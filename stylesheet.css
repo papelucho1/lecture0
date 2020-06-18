@@ -6,7 +6,7 @@
     padding-bottom: 50px;
     padding-left: 80px;    
  }
- #header{
+ .header{
     --border: 1px solid black;
    
     padding-top: 50px;
@@ -15,11 +15,118 @@
     padding-left: 80px;    
  }
 
+ @media (max-width: 575.98px) { 
+   .display-1    {
+      font-size: 80px; }
+   .select-salad {
+      font-size:25px
+   }
+   .btndiet{
+      background-color: white;
+      color: black;
+   }
+   .vegan{
+      background-color: #ffc107;
+      color:white;
+      font-weight: bold;
+      }
+  
+   .vegetarian{
+      background-color: #28a745;
+      color:white;
+      font-weight: bold;
+         }
+   .pescatarian{
+      background-color: #17a2b8;
+      color:white;
+      font-weight: bold;
+   }
+   .ominvore{
+      background-color: #dc3545;
+      color:white;
+      font-weight: bold;
+   }
+
+   }
+   .veganColor{
+      background-color:#ffc107;
+      border-color:#ffc107 ;
+      color:white;
+      border-radius: 20px;
+      border-style: solid;
+      width:58px;
+      
+   }
+
+   .vegetarianColor{
+      background-color:#28a745;
+      border-color:#28a745; 
+      color:white;
+      border-radius: 60px;
+      border-style: solid;
+      width:88px;
+   }
+   .pescatarianColor{
+
+      background-color:#17a2b8;
+      border-color:#17a2b8; 
+      color:white;
+      border-radius: 60px;
+      border-style: solid;
+      width:90px;
+   }
+   .ominvoreColor{ 
+
+      background-color:#dc3545;
+      border-color:#dc3545;
+      color:white;
+      border-radius: 60px;
+      border-style: solid;
+      width:80px;
+   }
+  
+  
+  
+
+
  #apartar{
     --border: 1px solid black;   
     padding-top: 50px;   
  }
 
+ #margenes{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: gainsboro;
+ }
+ #tarjetas{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-right: 20px;
+   margin-left: 20px;
+   outline-style: solid;
+   
+
+ }
+
+ .ingredients{
+   font-style: italic;
+
+ }
+
+ .recipe{
+   padding: 20px;
+   margin: 30px;
+   
+ }
+
  
+
+
 
 
