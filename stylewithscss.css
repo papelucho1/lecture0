@@ -1,0 +1,57 @@
+/* inheritance*/
+.tarjeta, .ominvoreColor, .pescatarianColor, .vegetarianColor, .veganColor {
+  color: white;
+  border-style: solid;
+}
+
+.veganColor {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  border-radius: 20px;
+  width: 58px;
+}
+
+.vegetarianColor {
+  background-color: #28a745;
+  border-color: #28a745;
+  border-radius: 60px;
+  width: 88px;
+}
+
+.pescatarianColor {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  border-radius: 60px;
+  width: 90px;
+}
+
+.ominvoreColor {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  border-radius: 60px;
+  width: 80px;
+}
+
+/* nesting*/
+#filter #titulo {
+  color: blueviolet;
+  font-weight: bolder;
+}
+#filter div #selector {
+  font-size: 14px;
+  color: black;
+}
+#filter div #vegan {
+  color: #ffc107;
+}
+#filter div #vegetarian {
+  color: #28a745;
+}
+#filter div #pescatarian {
+  color: #17a2b8;
+}
+#filter div #ominvore {
+  color: #dc3545;
+}
+
+/*# sourceMappingURL=stylewithscss.css.map */

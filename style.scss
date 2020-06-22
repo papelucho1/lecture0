@@ -1,0 +1,70 @@
+$colorVegan: #ffc107;
+$colorVegetarian: #28a745;
+$colorPescatarian:#17a2b8 ;
+$colorOminvore: #dc3545;
+$textColor : white;
+
+/* inheritance*/
+.tarjeta{
+   color:$textColor;
+   border-style: solid;   
+}
+
+.veganColor{
+   @extend .tarjeta;
+    background-color:$colorVegan;
+    border-color:$colorVegan ;
+    border-radius: 20px;
+    width:58px;    
+ }
+
+ .vegetarianColor{
+   @extend .tarjeta;
+    background-color:$colorVegetarian;
+    border-color:$colorVegetarian; 
+    border-radius: 60px;
+    width:88px;
+ }
+ .pescatarianColor{
+   @extend .tarjeta;
+    background-color:#17a2b8;
+    border-color:#17a2b8; 
+    border-radius: 60px;
+    width:90px;
+ }
+ .ominvoreColor{ 
+   @extend .tarjeta;
+    background-color:$colorOminvore;
+    border-color:$colorOminvore;
+    border-radius: 60px;
+    width:80px;
+ }
+
+ /* nesting*/
+#filter{
+   #titulo{
+      color: blueviolet;
+      font-weight: bolder;
+   }
+   div{
+      #selector{
+         font-size: 14px;
+         color: black;
+      }
+      #vegan{
+         color:$colorVegan;
+      }
+      #vegetarian{
+         color:$colorVegetarian;
+      }
+      #pescatarian{
+         color:$colorPescatarian;
+      }
+      #ominvore{
+         color:$colorOminvore;
+      }
+
+   }
+   
+}
+
